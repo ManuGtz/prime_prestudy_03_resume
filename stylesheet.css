@@ -1,0 +1,132 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.hidden{
+	display:none;
+}
+
+
+body{
+	width: 800px;
+
+	margin: 0 auto;
+    border: 2px solid #800000;
+    background-color: #9EB5B5;
+}
+
+#button{
+	display:block;
+	margin:0 auto;
+	height:30px;
+	padding:5px;
+	font:normal bold 16px tahoma;
+	background: #223B43;
+	color:#C1C6C7;
+}
+
+#button:hover, #button:focus{
+		color:#64767B;
+		background:#C1C6C7;
+}
+
+section{
+	height: 900px;
+}
+
+header{
+	background: #338585;
+}
+
+section,aside, article, footer, figure{
+background-color: #338585;
+}
+
+/*header*/
+
+#name{
+	font:normal bold 20px Verdana;
+	color:#001620;
+	padding:10px 15px 10px;
+}
+
+#jobs{
+	font:italic normal 15px tahoma;
+	padding:5px 10px;
+}
+
+/*aside*/
+
+#profhistory{
+	font:normal normal 13px tahoma;
+	float: right;
+	padding:5px 15px;
+}
+
+#titles{
+	
+	padding:3px 0;
+}
+
+.edu{
+	
+	border-top:2px solid #C71313;
+	padding-top:1em;
+	padding-bottom: 2px;
+}
+
+.italic{
+	padding-bottom: 3em;
+}
+
+/*picture*/
+
+#profilepicture{
+	border-radius: 4px;
+	box-shadow:  -3px 3px 4px 3px #958C8C;
+	margin:1em 1.5em;
+	width: 250px;
+	height:250px;
+}
+
+/*article*/
+
+#art{
+	width: 70%;
+}
+
+.obj{
+	margin-left:1em;
+	font-family: Tahoma, "Times New Roman";
+	text-align:justify;
+	font-size:15px;	
+
+}
+
+article h3{
+	margin-left:1em;
+	padding-bottom: 1em;
+}
+
+#indent{
+	list-style-type: square;
+	margin-left: 1em;
+}
+
+a:link {
+	color:#E6E8E9;
+}
+a:link:hover, a:link:focus{
+	color: #A3E0FF;
+}
+
+/*footer*/
+
+footer{
+	font: normal normal 17px Georgia;
+	background: #993333;
+	text-align: center;
+	padding:0.5em;
+	border-top: 2px solid #800000;
+}
